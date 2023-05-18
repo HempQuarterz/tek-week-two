@@ -1,96 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Resume</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Resume</title>
 
-<link rel="stylesheet" href="Online Resume styles.css">
+  <style>
+    body {
+      background-color: black;
+      
+    }
+
+    h1 {
+      font-family: sans-serif;
+      font-size: 35px;
+      color: white;
+      
+    }
+
+    h2 {
+      font-family: sans-serif;
+      font-size: 25px;
+      color: skyblue;
+    }
+
+    h3 {
+      font-family: sans-serif;
+      font-size: 20px;
+      color: blueviolet;
+    }
+
+    p {
+      font-family:sans-serif;
+      color: gray;
+      font-size: 18px;      
+    }
+
+
+    #top-container {
+      width: 100%;
+      height: 30%;
+      display: flex;
+      justify-content: space between;
+      
+
+    }
+
+    .ProfileImage {
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    .Profile_Name {
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+
+    
+    #First_List {
+
+      font-size: 20px;
+      color: white;
+      width: 100%;
+      height: 100%;
+      text-align: end;
+      
+      
+    }
+
+    #Second_List {
+
+      font-size: 20px;
+      color: gray;
+      width: 100%;
+      height: 100%;
+      text-align: left;
+    }
+
+    #middle-container {
+      border: 5px solid green;
+      height: 30%;
+      width: 70%;
+    }
+
+    #bottom-container {
+      border: 5px solid green;
+      height: 30%;
+      width: 70%;
+    }
+    
+    #side-container {
+      border: 5px solid green;
+
+      position: right;
+    }
+
+    .Border {
+      border: 10px solid green;
+    }
+
+    .List1 {
+      list-style-type: none;
+      
+    }
+
+    .List2 {
+      list-style-type: none;
+    }
+
+    .Education {
+      color: grey;
+    }
+
+  </style>
 
 </head>
 
 <body>
 
-  <div class="main_container">
+  <div class="container">
+    <div class="Border">
 
-    <header>
-    <div id="header">
-        <img src="Images/profile.jpg" alt="profile picture"
-        width="130px"
-        height="150px">
+    <div id="top-container">
+
+      <div class="ProfileImage">
+      <img src="./Images/profile.jpg" alt="profile"
+      height="150px";
+      width="150px">
+    </div>
+
+      <div class="Profile_Name">
+      <h1>Maurice Hall</h1>
+      <p>Software Developer</p>
+</div>
+
+      <div id="First_List">
+
+      <ul class="List1"> 
+        <li>Name:</li>
+        <li>D.O.B:</li>
+        <li>Address:</li>
+        <li>Phone:</li>
+        <li>Email:</li>
+        <li>Website:</li>
+        </ul>
         
-        <div id="Name">
-        <h1>Maurice Hall</h1>
-        <h3>Software Developer</h3>
-        </div>
+      </div>
 
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem dignissimos voluptatibus id debitis quos ratione, pariatur fugit, assumenda quo delectus rerum eaque quas eveniet illo quae error. Animi, natus nemo!</p>
+      <div id="Second_List">
+
+        <ul class="List2">
+          <li>Maurice Hall</li>
+          <li>11/15/1986</li>
+          <li>LA,CA 90026</li>
+          <li>123-456-7890</li>
+          <li>hempquarterz@gmail.com</li>
+          <li>http://www.hempquarterz.com</li>
+          </ul>
 </div>
+    </div>
+
+    <div class="Bio">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nisi doloremque illum, temporibus esse beatae dolorem, saepe laborum quisquam laboriosam veniam sunt quaerat excepturi eligendi expedita nostrum est asperiores deserunt.</p>
+      </div>
+    </div>
+<br>
+  
+
+    <div id="middle-container">
+
+      <h2>Employment</h2>
+
+      <h3>The Last Place I Worked</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit est quia neque molestias, eum quaerat laborum aperiam veritatis officiis ipsa. Aspernatur cupiditate quaerat deleniti doloribus. Doloribus consequatur reiciendis fugiat consequuntur!</p>
+
+      <h3>The Place I Worked Before That</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit est quia neque molestias, eum quaerat laborum aperiam veritatis officiis ipsa. Aspernatur cupiditate quaerat deleniti doloribus. Doloribus consequatur reiciendis fugiat consequuntur!</p>
+
+    </div>
+
+    <br>
+
+    <div id="bottom-container">
+
+      <div class="Education">
+      <h2>Education</h2>
+      <h3>Per Scholas</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit est quia neque molestias, eum quaerat laborum aperiam veritatis officiis ipsa. Aspernatur cupiditate quaerat deleniti doloribus. Doloribus consequatur reiciendis fugiat consequuntur!</p>
+    </div>
+
+      <h3>Bennett H.S<h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus suscipit necessitatibus, voluptatum doloribus dolorum vitae quisquam dolore fugiat non, ad facere ullam accusamus, pariatur fugit ipsa et ea quidem. Harum.</p>
+
+    </div>
 
 
-
-
-
-<div>
-
-
-
-</div>
-</header>
-<hr>
-
-<div id="sidebar">
-<p>HTML</p>
-<div class="container">
-  <div class="skills html">25%</div>
-</div>
-
-<p>CSS</p>
-<div class="container">
-  <div class="skills css">25%</div>
-</div>
-
-<p>JavaScript</p>
-<div class="container">
-  <div class="skills js">25%</div>
-</div>
-
-<p>PHP</p>
-<div class="container">
-  <div class="skills php">25%</div>
-</div>
-</div>
-<hr>
-
-<h2>Employment</h2>
-
-<h3>The Last Job I Had</h3>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente magnam tempora soluta sed dolor dolorum molestiae veniam voluptatem praesentium harum illo dolorem debitis est autem aspernatur libero, officiis suscipit quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius totam omnis, eveniet ea praesentium quos officia unde sit ullam, velit amet commodi, nobis quod officiis voluptatum optio hic in beatae.</p>
-
-<h3>The Job Before That</h3>
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit eaque, id eos laboriosam numquam aliquid libero placeat non! Vel reprehenderit ratione amet quod atque quo illum eum fugiat saepe minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, consectetur. Cum reprehenderit animi nostrum vero numquam repudiandae voluptas laudantium nemo eaque. Neque eligendi modi mollitia necessitatibus repellendus, iusto sequi dolor!</p>
-
-<hr>
-
-<div id></div>
-<img src="./Images/arrow-green-down-fotor-bg-remover-20230515125110.png" alt="green down"
-width="50px"
-height="25px">
-<h2>Education</h2>
-
-<img src="./Images/arrow-green-fotor-bg-remover-20230515125114.png" alt="">
-<h3>Per Scholas</h3>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At aliquid quasi, voluptatum culpa illo maiores voluptates nobis sit ab corrupti iste ut libero quam facilis in omnis consequatur pariatur vel.</p>
-
-<img src="./Images/arrow-green-fotor-bg-remover-20230515125114.png" alt="green right"
-width="40px"
-height="20px">
-
-<h3>Bennet H.S</h3>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil modi reprehenderit dolorem. Temporibus, a. Earum laborum ad repellendus deserunt at sed necessitatibus eius! Vel praesentium in sed iure neque. Eaque!</p>
-
-
-</div>
+    </div>
+  
 </body>
 </html>
